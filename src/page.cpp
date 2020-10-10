@@ -1,12 +1,12 @@
 #include "main.h"
 
 String index() {
-    return header(TITLE) + "<div>" + "<p>是只算法狗+前端+机器学习+后端+系统开发+嵌入式+医学+药理学+摄影的综合垃圾体</p>" +
-           "<h2>主要做</h2><h3>机器学习方向：</h3><ul><li>歌声合成，歌声转换，语音合成，自然语言处理，情感处理，人脸识别，图像识别。" +
-           "</li></ul><h3>算法方向</h3><ul><li>数字信号处理，音频分析，计算机音频，计算机视觉。</li></ul><h3>前端方向</h3><ul>" +
-           "<li>网页，网站，Electron APP，QingShanASD。</li></ul><h3>系统开发</h3><ul><li>Arm版本系统开发，Linux开发，Linux" +
-           "与嵌入式，安卓系统基础开发，ChromiumOS基础。</li></ul><h3>后端</h3><ul><li>网站，服务器，运维。</li></ul><h3>嵌入式" +
-           "</h3><ul><li>树莓派系列，OrangePI系列，FireFly系列，Jetson系列，Arduino系列，51系列，FPGA</li></ul><h>医学方向</h" +
+    return header(TITLE) + "<div><p>是只算法狗+前端+机器学习+后端+系统开发+嵌入式+医学+药理学+摄影的综合垃圾体</p>" 
+           "<h2>主要做</h2><h3>机器学习方向：</h3><ul><li>歌声合成，歌声转换，语音合成，自然语言处理，情感处理，人脸识别，图像识别。" 
+           "</li></ul><h3>算法方向</h3><ul><li>数字信号处理，音频分析，计算机音频，计算机视觉。</li></ul><h3>前端方向</h3><ul>" 
+           "<li>网页，网站，Electron APP，QingShanASD。</li></ul><h3>系统开发</h3><ul><li>Arm版本系统开发，Linux开发，Linux" 
+           "与嵌入式，安卓系统基础开发，ChromiumOS基础。</li></ul><h3>后端</h3><ul><li>网站，服务器，运维。</li></ul><h3>嵌入式"
+           "</h3><ul><li>树莓派系列，OrangePI系列，FireFly系列，Jetson系列，Arduino系列，51系列，FPGA</li></ul><h>医学方向</h" 
            "3><ul><li>心理学，精神医学，神经外科。</li></ul>" + footer();
 }
 
