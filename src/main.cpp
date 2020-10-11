@@ -5,14 +5,23 @@ const byte HTTP_CODE = 200;
 const byte DNS_PORT = 53;
 IPAddress APIP(172, 0, 0, 1);
 
+Chrono myChrono;
 DNSServer dnsServer;
 ESP8266WebServer webServer(80);
+
+void chrono_led(int state) {
+    if (myChrono.hasPassed(1000)) {
+        myChrono.restart();
+    }
+}
 
 void setup() {
     pinMode(LED, OUTPUT);
     digitalWrite(LED, LOW);
     // Serial begin
     Serial.begin(115200);
+    delay(10);
+    blink_fast();
     delay(10);
 
     WiFi.mode(WIFI_AP);
